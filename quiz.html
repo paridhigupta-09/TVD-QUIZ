@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TVD Quiz</title>
+
+  <!-- linking my css file -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- fonts from google -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- background glow, just for the dark vampire vibe -->
+  <div class="night-bg"></div>
+
+  <main class="quiz-card">
+
+    <div class="quiz-header">
+      <h1>TVD Quiz</h1>
+    </div>
+
+    <!-- all questions get added here at once through js -->
+    <form id="quizForm"></form>
+
+    <div class="quiz-footer">
+      <button id="submitBtn" class="btn-primary">Submit</button>
+    </div>
+
+    <!-- result text shows up here after submit -->
+    <div id="resultSummary"></div>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
